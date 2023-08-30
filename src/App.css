@@ -1,0 +1,73 @@
+/* App container */
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ddd;
+  font-size: 35px;
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Input and Select styles */
+Input[type="text"],
+Select {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 20%;
+}
+
+/* Button styles */
+Button {
+  background-color: black;
+  color: #fff;
+  border: 10px;
+  border-radius: 6px;
+  padding: 12px 24px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0066CC;
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 50%;
+  
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Card styles */
+.card {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
